@@ -18,7 +18,11 @@
   },
   "plugins": ["react"],
   "rules": {
-    "indent": ["error", 2, { "ignoredNodes": ["ConditionalExpression"] }],
+    "indent": [
+      "error",
+      2,
+      { "ignoredNodes": ["ConditionalExpression"], "SwitchCase": 1 }
+    ],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
     "semi": ["error", "never"]
